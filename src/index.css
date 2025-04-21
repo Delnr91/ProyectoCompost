@@ -1,0 +1,19 @@
+/* Importa las fuentes de Google Fonts PRIMERO */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* Luego vienen las directivas de Tailwind (estas NO las borres) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opcional: Puedes añadir reglas CSS globales aquí si es necesario, */
+/* como definir las fuentes por defecto para body y h1-h6 si no lo haces */
+/* en tailwind.config.js */
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
